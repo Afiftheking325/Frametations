@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <title>The multi-frame</title>
+    <link rel="icon" href="logo2.PNG.PNG">
+    <style>
+        body{
+            background-image:radial-gradient(#84A98C,#545E75,#66635B,#48483A);
+        }
+        .header{
+        background-image: linear-gradient(#39A0ED,#32322C,#13C4A3,#36F1CD);
+        padding: 20px;
+        font-family: 'Mate SC', serif;
+        font-size: 20px;
+    }
+    .lis{
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: #394053;
+        overflow: hidden;
+    }
+    .l1{
+        float: left;   
+    }
+    .l1 a{
+        text-decoration: none;
+        color: azure;
+        padding-top: 5px;
+        padding-right: 30px;
+        padding-left:10px ;
+        font-size: 25px;
+        font-family:fantasy ;
+        display: block;
+        background-color: cyan;
+    }
+    .l1 a:hover{
+     background-color: darkcyan;
+    }
+    </style>
+</head>
+<body bgcolor="lightblue">
+<center>
+    <center>
+        <div><img style="height: 100px; width: 110px;"  src="logo2.PNG" alt=""></div>
+        <h1 style="color: white;">Welcome to our shop!!</h1>
+        <h3 style="color: white;">you can choose a variety of products in this shop and order right to your home</h3>
+    </center> 
+    </div>
+<div>
+    <ul class="lis">
+        <li class="l1"><a style="color: black;" href="http://127.0.0.1:5500/Frametations.html">Home</a></li>
+        <li class="l1"><a style="color: black;" href="http://127.0.0.1:5500/shop.html">Shop</a></li>
+        <li class="l1"><a style="color:  black;" href="http://127.0.0.1:5500/about%20us.html">About us</a> </li>
+        <li class="l1"><a style="color:  black;" href="">Contact us</a></li>
+        <li class="l1"></li>
+    </ul> 
+    </div> 
+    <span id="s2"><img style="width: 700px; height: 700px;" src="multi.png" alt=""></span>  
+    <p style="background-color: aqua;" >Price: AED 10</p>
+    <p style="background-color: aqua;">This is a basic multiple picture frame frame where you can add custom photos+quotations</p>
+    <p style="background-color: aqua;">But it costs AED 5 more,so without further ado, start buying!</p>
+    <form method="POST" action=""></form>
+    Topic needed: <input required placeholder="Please enter your topic" maxlength="200" type="text">
+    <br>
+    <br>
+    Quantity <select required name="quantity" id="quantity">
+        <option value="-1">Select your quantity</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <br>
+    <br>
+    <input name="submit" value="submit" type="submit">
+</center>
+</body>
+</html>
